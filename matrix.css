@@ -1,0 +1,131 @@
+div{
+    background-color: beige;
+    text-align:center;
+    width: 220vh;
+    position: relative;
+}
+ul{ 
+    background-color: black;
+    text-align: right;
+    text-transform: uppercase;
+    border: 1px solide white;
+    display: flex;
+    gap: 20px;
+    border: 20px;
+    height: 15vh;
+    width: 215vh;
+} 
+ul a:hover{
+    background: white;
+}
+nav{ 
+    background-image:url(backgrounds.jpg) ;
+    height: 130vh;
+    width: 220vh;
+}
+.bouton{
+    text-align:center;
+    background-color:white;
+     border-radius:15px;
+     height:8vh ;
+     width: 15vh;
+     gap: 20px;
+     display: flex;
+     position: absolute;
+     left: 50%;
+     top: 95%;
+     right: 50%;
+     transform: matrix(-70% -70%);
+     bottom: 50px;
+     cursor: pointer;
+    color: blueviolet;
+}
+.bouton:hover{
+    background:gray;
+}
+    
+.btn{
+    background-color:whitesmoke;
+    position: absolute;
+    right: 400px;
+}
+.sub{
+    border-radius: 15px;
+}
+#tog:checked +#voir le contenu {
+    display: block;
+}
+#voir le contenu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+#voir le contenu li{
+    padding: 10px ;
+    background: #f1f1f1;
+    margin: 5px 0;
+}
+#voir le contenu li :hover{
+    background: #ddd;
+
+}
+.film{
+    background-color: #333;
+}
+body{
+    background-color:beige;
+    min-height: 100vh;
+    width: 100VH;
+}
+.text{ 
+
+    text-align:center;
+     border: 10px;
+     height:8vh ;
+     width: 1OOvh;
+     gap: 20px;
+     display: flex;
+     position: absolute;
+     left: 50%;
+     top: 200px;
+     right: 80%;
+     transform: matrix(-70% -70%);
+     bottom: 200px;
+     cursor: pointer;
+    color: blueviolet;
+    gap: 20px;
+    text-transform: uppercase;
+    text-shadow:gray;
+ }
+  
+.html { width: 70%;}  
+.css { width: 60%; }   
+.js { width: 30%; }    
+.ph { width: 50%; }  
+.kl{ width: 20%; }  
+
+.competence{
+    width: 48%; 
+    padding: 20px;
+    margin: 20px 0;
+    background:beige;
+    text-align: center; 
+
+    }
+    .bar {
+        width: 300px;
+        height: 10px;
+        background: #ddd;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: inset 2px 2px 5px 3px 2px rgba(0, 0, 0, 0.2 0,0);
+    }
+    
+    .progress {
+        height: 100%;
+        border-radius: 10px;
+        background: linear-gradient(45deg, pink, blueviolet);
+        box-shadow: 2px 2px 2px 4px 3px rgba(0, 0, 0, 0.8);
+        transition: width 1s;
+    }
